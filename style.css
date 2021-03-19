@@ -50,10 +50,10 @@ main{
    
     height: 400px;
     background-image: url("/img/banner.jpg") ;
-    background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 5px;
-    background-color: yellow;
+    background-size: 100% 122%;
+    
     
 }
 
@@ -62,23 +62,30 @@ main{
     height: 40%;
     width: 60%;
     padding-left: 5%;
-    padding-top: 40%;
+    padding-top: 31%;
+    
     font-family: fantasy;
-    color:white;
+    color:red;
 }
 
 
 
 .leadership{
     height: 10%;
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
 
-    background-color:blueviolet;
+div.leadership > h6{
+    color:red;
 }
 
 .center_container{
   
     height: 50%;
-    background-color: cyan;
+    background-color:white;
 }
 
 
