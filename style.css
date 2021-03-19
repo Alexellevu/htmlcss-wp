@@ -52,8 +52,8 @@ main{
     background-image: url("/img/banner.jpg") ;
     background-repeat: no-repeat;
     border-radius: 5px;
-    background-size: 100% 122%;
-    
+    background-size:cover;
+    background-position:center;
     
 }
 
@@ -82,6 +82,8 @@ div.leadership > h6{
     color:red;
 }
 
+
+
 .center_container{
   
     height: 50%;
@@ -89,32 +91,38 @@ div.leadership > h6{
 }
 
 
+.lateral_img{
+    max-width: 100%;
+    height: 120px;
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
 
 .left_block{
-    
     float: left;
     background-color: darkgreen;
     width: 25%;
     height: 100%;
-
 }
-
-div.left_block > img{
-    max-width: 100%;
-    height: 40%;
+#left_img{
+    background-image: url("/img/img-1.jpg") ;
 }
 
 
 
-div.right_block > img{
-    max-width: 100%;
-    height: 40%;
+
+
+.right_block{
+    float: right;
+    width: 25%;
+    background-color: red;
+    height: 100%;
 }
 
-div.center_block > img{
-    max-width: 100%;
-    height: 40%;
-
+#right_img{
+    background-image: url("/img/img-3.jpg") ;
 }
 
 
@@ -126,14 +134,25 @@ div.center_block > img{
     margin-right:2%;
     height: 100%;
     width: 46%;
+    
+
+}
+.center_img{
+    background-image: url(/img/banner-2.jpg);
+    max-width: 100%;
+    height: 120px;
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
 }
 
-.right_block{
-    float: right;
-    width: 25%;
-    background-color: red;
-    height: 100%;
-}
+
+
+
+
+
+
 
 footer{
     height: 10%;
