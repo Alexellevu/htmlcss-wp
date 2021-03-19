@@ -20,11 +20,6 @@ header{
     margin-bottom: 3%;
 }
 
-main{
-
-    height: 70%;
-
-}
 
 
 #set_logo{
@@ -41,13 +36,11 @@ a{
     color: rgb(69, 192, 151);
 }
 
-main{
-    height: 80%;
-    
-}
+
 
 .blocco_immagine{
-   
+
+    position:relative;
     height: 400px;
     background-image: url("/img/banner.jpg") ;
     background-repeat: no-repeat;
@@ -55,15 +48,23 @@ main{
     background-size:cover;
     background-position:center;
     
+    
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 5px;
 }
 
 .sotto_blocco_imm1{
-    float: left;
-    height: 40%;
-    width: 60%;
-    padding-left: 5%;
-    padding-top: 31%;
+    position: absolute;
     
+    width: 60%;
+    left: 5%;
+    bottom: 5%;
     font-family: fantasy;
     color:red;
 }
@@ -92,7 +93,7 @@ div.leadership > h6{
 
 
 .lateral_img{
-    max-width: 100%;
+    width: 100%;
     height: 120px;
     background-size:cover;
     background-position:center;
@@ -115,9 +116,9 @@ div.leadership > h6{
 
 
 .right_block{
-    float: right;
-    width: 25%;
+    float: left;
     background-color: red;
+    width: 25%;
     height: 100%;
 }
 
@@ -139,7 +140,8 @@ div.leadership > h6{
 }
 .center_img{
     background-image: url(/img/banner-2.jpg);
-    max-width: 100%;
+    
+    width: 100%;
     height: 120px;
     background-size:cover;
     background-position:center;
