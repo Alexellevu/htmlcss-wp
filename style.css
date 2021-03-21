@@ -149,6 +149,14 @@ div.leadership > h6{
     border-radius: 5px;
 }
 
+.colunm_title{
+    font-family: arial;
+    margin-top: 10px;
+    margin-bottom: 8px;
+
+}
+
+
 
 
 
@@ -160,4 +168,5 @@ footer{
     height: 10%;
     
     background-color:chartreuse;
+    text-align: center;
 }
